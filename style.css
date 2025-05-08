@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    background-color: #2c2b2b;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 2PX solid rgb(179, 160, 160);
+    border-radius: 50%;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: green;    
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+
+}
+.rightNav i{
+    padding: 7px;
+    color: #070707;
+    font-size: 17px;
+    border: 2px solid rgb(235, 230, 230);
+    border-radius: 9px;
+    background-color: #fff;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(102, 96, 96);
+    border-radius: 9px;
+    
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(image/library.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    backdrop-filter: blure;
+
+}
+ .box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 76%;
+    margin: auto;
+    height: 80%;
+ }
+ .fristsection{
+    height: 100vh;
+ }
+ .fristHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+ }
+ 
+ .secondHalf{
+    width: 30%;
+ }
+ .secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+ }
+ .text-big{
+    font-size: 41px; 
+ }
+ .text-small{
+    font-size: 25px;
+ }
+ .buttons{
+    margin-top: 0.5rem;
+    
+ }
+ .btn{
+    padding: 5px 5px;
+    margin: 7px 0px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    color: ghostwhite;
+    background: none;
+    cursor: pointer;
+
+ }
+ .btn:hover{
+    color: wheat; 
+ }
+ .section{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 88%;
+    margin: 20px 10px 0px;
+
+ }
+ .paras{
+    padding: 0px 40px;
+    font-family:'Times New Roman', Times, serif;
+ }
+ .secimg img{
+   width: 266px;
+    border: 4px solid rgb(15, 8, 8);
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+
+ }
+ .secimg img:hover{
+    transform: translateY(5px);
+    
+ }
+ .Left{
+   flex-direction: row-reverse;
+ }
+
+/*------------------form-------------------*/
+.contact-information{
+    text-align: center;
+    background-color: #f1eded;
+}
+ .contact{
+   background: #f1eded;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   gap: 2.5rem;
+  }
+ 
+  .contact-text h4{
+   color: #252424;
+   margin: 18px 0;
+   font-size: 20px;
+   font-weight: 700;
+ 
+  }
+  .contact-text h2{
+   font-size: 3rem;
+   line-height: 1;
+  }
+  .contact-text p{
+    color: #19191a;
+   font-weight: 200;
+   font-size: 1rem;
+   margin-bottom: 30px;
+  }
+  .contact-text{
+    margin-left: 20px;
+  }
+   
+   .contact-form form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    background: #272424;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    
+    border-radius: 8px;
+    align-items: center;
+    margin: 0px 10px 8px;
+   }
+   .contact-form{
+    width: 50%;
+    margin-left: 250px;
+   }
+   .contact-form textarea{
+    resize:both;
+    height: 200px;
+    align-items: center;
+   }
+   .contact-form .submit{
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background: #3e4b58;
+    color: #fff;
+    width: 155px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    transition: all .45s ease;
+  
+   }
+   .contact-form .submit:hover{
+    cursor: pointer;
+    background-color: #615858;
+    border: 2px solid rgb(139, 129, 129);
+   }
+   .services-content .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+ span{
+    color: #05b4ff;
+ }
+
+  
+  
+ /* ------------------------footer---------------*/
+ .end {
+    width: 100%;
+    background: #2a2a2a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+    gap: 2rem;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .last-text p {
+    color: #ccc;
+    margin-left: 0;  
+    font-size: 1rem;
+  }
+  
+   .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+   }
+   .line{
+    width: 33px;
+    background-color: rgb(241, 228, 228);
+    height: 4px;
+    margin: 3px 3px;
+   }
+   /*  Responsive adjustments */
+
+   @media only screen and (max-width:1140px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+      }
+    
+      .nav-list {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-center;
+      }
+    
+      .nav-list li {
+        padding: 10px 0;
+      }
+    
+      .rightNav {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+      }
+    
+      .logo {
+        margin-bottom: 10px;
+      }
+  /*----------------------------------------------------------*/
+     
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 70px;
+
+    }
+     .v-class-resp{
+        opacity: 0;
+
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+
+    }
+    
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 15px;
+    }
+    
+    .contact-text {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .contact-text h2 {
+        font-size: 2.2rem;
+    }
+    
+    .contact-form {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .last-text p {
+        font-size: 0.95rem;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 90%;
+    }
+   } 
